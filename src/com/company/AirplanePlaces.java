@@ -9,7 +9,7 @@ public class AirplanePlaces {
     private static int placeNumber = 1;
 
     public static void main(String[] args) {
-        // creating the places of airplane
+        // creating conflict situation
         airplanePlaces = new String[10][6];
         for (int i = 0; i <= airplanePlaces.length - 1; i++) {
             for (int j = 0; j <= airplanePlaces[i].length - 1; j++) {
