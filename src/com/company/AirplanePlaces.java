@@ -12,7 +12,7 @@ public class AirplanePlaces {
         // intentionally create conflict (changes from friend)
         // creating conflict situation (changes from origin)
         // something something something something
-        airplanePlaces = new String[10][6];gti
+        airplanePlaces = new String[10][6];
         for (int i = 0; i <= airplanePlaces.length - 1; i++) {
             for (int j = 0; j <= airplanePlaces[i].length - 1; j++) {
                 airplanePlaces[i][j] = letters[letterIndex] + Integer.toString(placeNumber);
