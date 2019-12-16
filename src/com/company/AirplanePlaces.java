@@ -11,6 +11,7 @@ public class AirplanePlaces {
     public static void main(String[] args) {
         // intentionally create conflict (changes from friend)
         // creating conflict situation (changes from origin)
+        // trying to git rebase
         airplanePlaces = new String[10][6];
         for (int i = 0; i <= airplanePlaces.length - 1; i++) {
             for (int j = 0; j <= airplanePlaces[i].length - 1; j++) {
